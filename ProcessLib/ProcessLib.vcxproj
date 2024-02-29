@@ -196,11 +196,16 @@
     <None Include="res\ProcessLib.rc2" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="Data.h" />
+    <ClInclude Include="DataRow.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="GenericData.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="ProcessLib.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="VariantData.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="ProcessLib.rc" />

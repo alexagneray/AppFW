@@ -8,5 +8,6 @@
 #define PCH_H
 
 // ajouter les en-têtes à précompiler ici
+#include <Data.h>
 
 #endif //PCH_H
