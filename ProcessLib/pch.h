@@ -10,4 +10,6 @@
 // ajouter les en-têtes à précompiler ici
 #include "framework.h"
 
+#include <memory>
+
 #endif //PCH_H

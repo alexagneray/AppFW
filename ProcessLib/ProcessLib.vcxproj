@@ -183,6 +183,8 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DataBox.cpp" />
+    <ClCompile Include="GenericData.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -198,6 +200,7 @@
   <ItemGroup>
     <ClInclude Include="Component.h" />
     <ClInclude Include="Data.h" />
+    <ClInclude Include="DataBox.h" />
     <ClInclude Include="DataRow.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="GenericData.h" />

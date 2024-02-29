@@ -1,5 +1,4 @@
 #pragma once
-#include "framework.h"
 
 class IData
 {
@@ -7,8 +6,25 @@ class IData
 	time_t m_tmCreation;
 	HANDLE m_hMutex;
 	
-	HRESULT Lock();
-	HRESULT Unlock();
-	HRESULT Move(IData*);
-	HRESULT Clone(IData*);
+	IData() :
+		m_uMagicNumber{ 0 },
+		m_tmCreation{0},
+		m_hMutex{ NULL }
+	{
+		m_hMutex = CreateMutex(NULL,FALSE,NULL);
+	}
+	virtual HRESULT Lock()
+	{
+		if (!m_hMutex) return E_POINTER;
+
+		WaitForSingleObject(m_hMutex, INFINITE);
+	}
+	virtual HRESULT Unlock()
+	{
+		if (!m_hMutex) return E_POINTER;
+
+		ReleaseMutex(m_hMutex);
+	}
+	virtual HRESULT Move(IData*) = 0;
+	virtual HRESULT Clone(IData*) = 0;
 };

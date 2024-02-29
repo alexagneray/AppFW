@@ -22,6 +22,9 @@
     <Filter Include="Fichiers d%27en-tête\Data">
       <UniqueIdentifier>{dab53f3c-d45a-4ca2-8a58-427feffd6e18}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers sources\Data">
+      <UniqueIdentifier>{14f7914d-9b28-43b5-9e21-709459e07224}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ProcessLib.cpp">
@@ -29,6 +32,12 @@
     </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericData.cpp">
+      <Filter>Fichiers sources\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBox.cpp">
+      <Filter>Fichiers sources\Components</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -69,6 +78,9 @@
     </ClInclude>
     <ClInclude Include="GenericData.h">
       <Filter>Fichiers d%27en-tête\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBox.h">
+      <Filter>Fichiers d%27en-tête\Components</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
