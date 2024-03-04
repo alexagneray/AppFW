@@ -8,6 +8,11 @@
 #define PCH_H
 
 // ajouter les en-têtes à précompiler ici
+#include "framework.h"
+#include <Component.h>
+#include <memory>
 #include <Data.h>
-
+#include <DataRow.h>
+#include <GenericData.h>
+#include <DataBox.h>
 #endif //PCH_H

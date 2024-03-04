@@ -1,7 +1,5 @@
 #include "pch.h"
-#include "Data.h"
-#include "Component.h"
-#include "DataBox.h"
+#include "ProcessLib.h"
 
 CDataBox::CDataBox():
 	m_pData{nullptr}
@@ -27,4 +25,5 @@ HRESULT CDataBox::Set(std::shared_ptr<IData> pData)
 	if (!pData) return E_INVALIDARG;
 	
 	m_pData = pData;
+	return S_OK;
 }

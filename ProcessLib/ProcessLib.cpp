@@ -35,30 +35,30 @@
 //
 
 // CProcessLibApp
-
-BEGIN_MESSAGE_MAP(CProcessLibApp, CWinApp)
-END_MESSAGE_MAP()
-
-
-// Construction de CProcessLibApp
-
-CProcessLibApp::CProcessLibApp()
-{
-	// TODO: ajoutez ici du code de construction,
-	// Placez toutes les initialisations significatives dans InitInstance
-}
-
-
-// Le seul et unique objet CProcessLibApp
-
-CProcessLibApp theApp;
-
-
-// Initialisation de CProcessLibApp
-
-BOOL CProcessLibApp::InitInstance()
-{
-	CWinApp::InitInstance();
-
-	return TRUE;
-}
+//
+//BEGIN_MESSAGE_MAP(CProcessLibApp, CWinApp)
+//END_MESSAGE_MAP()
+//
+//
+//// Construction de CProcessLibApp
+//
+//CProcessLibApp::CProcessLibApp()
+//{
+//	// TODO: ajoutez ici du code de construction,
+//	// Placez toutes les initialisations significatives dans InitInstance
+//}
+//
+//
+//// Le seul et unique objet CProcessLibApp
+//
+//CProcessLibApp theApp;
+//
+//
+//// Initialisation de CProcessLibApp
+//
+//BOOL CProcessLibApp::InitInstance()
+//{
+//	CWinApp::InitInstance();
+//
+//	return TRUE;
+//}

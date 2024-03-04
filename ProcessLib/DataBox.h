@@ -1,6 +1,6 @@
 #pragma once
 
-class CDataBox : public IComponent
+class AFX_EXT_CLASS CDataBox : public CComponent
 {
 	std::shared_ptr<IData> m_pData;
 public:

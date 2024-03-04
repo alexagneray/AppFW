@@ -36,8 +36,8 @@
     <ClCompile Include="GenericData.cpp">
       <Filter>Fichiers sources\Data</Filter>
     </ClCompile>
-    <ClCompile Include="DataBox.cpp">
-      <Filter>Fichiers sources\Components</Filter>
+    <ClCompile Include="Data.cpp">
+      <Filter>Fichiers sources\Data</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -81,6 +81,9 @@
     </ClInclude>
     <ClInclude Include="DataBox.h">
       <Filter>Fichiers d%27en-tête\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessLibMain.h">
+      <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
